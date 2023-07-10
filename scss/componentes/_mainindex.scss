@@ -1,0 +1,78 @@
+div{
+    section{
+        p{
+            font-family: 'Trirong', serif;
+            font-size: 23px;
+
+            @media (max-width: 576px) {
+                display: none;
+              }
+        
+        }
+    }
+}
+
+  main {
+    h1 {
+      text-align: center;
+      font-weight: 200px;
+    }
+  
+    h2 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 100;
+      font-size: 22px;
+      text-align: justify;
+
+      @media (max-width: 570px) {
+        font-size: 14px;
+      }
+
+    }
+  
+    h3 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 100;
+      font-size: 16px;
+      text-align: justify;
+  
+      @media (max-width: 570px) {
+        font-size: 12px;
+      }
+    }
+  }
+  
+  .prodindex {
+    @extend %product;
+  
+    @media (max-width: 570px) {
+      width: 100%;
+      padding-left: 50%;
+      padding-top: 10%;
+    }
+  
+    img {
+      width: 250px;
+      transition: transform 0.3s ease; 
+  
+      &:hover {
+        transform: scale(1.1); 
+      }
+  
+      @media (max-width: 570px) {
+        width: 100px;
+      }
+    }
+  }
+  
+
+#new{
+    display: inline-block;
+    border: solid 2px;
+    padding: map-get($px, px );
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+
+

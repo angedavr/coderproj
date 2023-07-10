@@ -1,0 +1,29 @@
+
+table{
+  display: inline-block;
+  border: solid 5px  $clr-darker;
+  font-size: 30px;
+  margin-left: 400px;
+  margin-bottom: 20%; 
+
+  @media (max-width: 570px) {
+    display: inline-block;
+    border: solid 5px $clr-darker;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+  }
+  tr td {
+    padding: map-get($px, px );
+    text-align: center;
+  }
+
+}
+.table{
+    width: auto;
+    border-color: $clr-darker; 
+
+>:not(caption)>*>* {
+    background-color: $clr-darker;
+}
+} 

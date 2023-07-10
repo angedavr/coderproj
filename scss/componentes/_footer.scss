@@ -1,0 +1,24 @@
+footer {
+  background: rgb(230,127,95);
+  background: -moz-linear-gradient(0deg, rgba(230,127,95,0.9108018207282913) 30%, rgba(250,216,206,0.773546918767507) 85%);
+  background: -webkit-linear-gradient(0deg, rgba(230,127,95,0.9108018207282913) 30%, rgba(250,216,206,0.773546918767507) 85%);
+  background: linear-gradient(0deg, rgba(230,127,95,0.9108018207282913) 30%, rgba(250,216,206,0.773546918767507) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e67f5f",endColorstr="#fad8ce",GradientType=1);
+    text-align: center;
+    padding: 20px;
+    
+    p {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ce5e5e;
+      font-size: 18px;
+    }
+    
+    ul li {
+      display: inline-block;
+      margin-right: 80px;
+      margin-left: 80px;
+    }
+  }
+  
+  

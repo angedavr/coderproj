@@ -1,0 +1,46 @@
+body{
+    background-color: $clr-ppl;
+}
+header{
+    img{
+        width: 100%;
+    }
+    nav{
+        background: rgb(250,216,206);
+        background: -moz-linear-gradient(0deg, rgba(250,216,206,0.9668242296918768) 6%, rgba(209,233,163,0.7315301120448179) 20%);
+        background: -webkit-linear-gradient(0deg, rgba(250,216,206,0.9668242296918768) 6%, rgba(209,233,163,0.7315301120448179) 20%);
+        background: linear-gradient(0deg, rgba(250,216,206,0.9668242296918768) 6%, rgba(209,233,163,0.7315301120448179) 20%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad8ce",endColorstr="#d1e9a3",GradientType=1);
+        
+        ul{
+            @include text-center;;
+        border: solid 2px $clr-green;
+        margin: 20px 40px 20px 40px;
+        padding: map-get($px, px );
+        background-color: $clr-greenl;
+        }
+        li{
+        @include inline-block;;
+        padding: 12px 16px;
+        }
+        .logo-img {
+            width: 130px;
+            height: 80px;
+          }
+    }
+    .logoindex{
+        display: inline-block;
+        margin-left: 570px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 200px;
+        height: 200px;
+
+        @media (max-width: 570px) {
+            width: 0px;
+            height: 0px;
+          }
+    }
+}
+
+

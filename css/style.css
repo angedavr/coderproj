@@ -1,0 +1,211 @@
+.prod, .prodindex {
+  display: inline-block;
+  width: 500px;
+  padding-left: 27%;
+}
+
+div section p {
+  font-family: "Trirong", serif;
+  font-size: 23px;
+}
+@media (max-width: 576px) {
+  div section p {
+    display: none;
+  }
+}
+
+main h1 {
+  text-align: center;
+  font-weight: 200px;
+}
+main h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  text-align: justify;
+}
+@media (max-width: 570px) {
+  main h2 {
+    font-size: 14px;
+  }
+}
+main h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: justify;
+}
+@media (max-width: 570px) {
+  main h3 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 570px) {
+  .prodindex {
+    width: 100%;
+    padding-left: 50%;
+    padding-top: 10%;
+  }
+}
+.prodindex img {
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+.prodindex img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 570px) {
+  .prodindex img {
+    width: 100px;
+  }
+}
+
+#new {
+  display: inline-block;
+  border: solid 2px;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+
+body {
+  background-color: rgb(250, 216, 206);
+}
+
+header img {
+  width: 100%;
+}
+header nav {
+  background: rgb(250, 216, 206);
+  background: -moz-linear-gradient(0deg, rgba(250, 216, 206, 0.9668242297) 6%, rgba(209, 233, 163, 0.731530112) 20%);
+  background: -webkit-linear-gradient(0deg, rgba(250, 216, 206, 0.9668242297) 6%, rgba(209, 233, 163, 0.731530112) 20%);
+  background: linear-gradient(0deg, rgba(250, 216, 206, 0.9668242297) 6%, rgba(209, 233, 163, 0.731530112) 20%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad8ce",endColorstr="#d1e9a3",GradientType=1);
+}
+header nav ul {
+  text-align: center;
+  border: solid 2px rgb(58, 80, 17);
+  margin: 20px 40px 20px 40px;
+  background-color: rgb(209, 233, 163);
+}
+header nav li {
+  display: inline-block;
+  padding: 12px 16px;
+}
+header nav .logo-img {
+  width: 130px;
+  height: 80px;
+}
+header .logoindex {
+  display: inline-block;
+  margin-left: 570px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 200px;
+}
+@media (max-width: 570px) {
+  header .logoindex {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+#productos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin: 1px 20px 30px 10px;
+}
+
+@media (max-width: 570px) {
+  .prod {
+    width: 50%;
+  }
+}
+.prod img {
+  width: 260px;
+  transition: transform 0.3s ease-in-out;
+}
+.prod img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 570px) {
+  .prod img {
+    width: 100px;
+  }
+}
+
+.titulos {
+  background-color: rgb(250, 216, 206);
+  margin-top: 70px;
+  font-size: 30px;
+}
+@media (max-width: 576px) {
+  .titulos {
+    font-size: 22px;
+  }
+}
+
+footer {
+  background: rgb(230, 127, 95);
+  background: -moz-linear-gradient(0deg, rgba(230, 127, 95, 0.9108018207) 30%, rgba(250, 216, 206, 0.7735469188) 85%);
+  background: -webkit-linear-gradient(0deg, rgba(230, 127, 95, 0.9108018207) 30%, rgba(250, 216, 206, 0.7735469188) 85%);
+  background: linear-gradient(0deg, rgba(230, 127, 95, 0.9108018207) 30%, rgba(250, 216, 206, 0.7735469188) 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e67f5f",endColorstr="#fad8ce",GradientType=1);
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ce5e5e;
+  font-size: 18px;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+table {
+  display: inline-block;
+  border: solid 5px rgb(247, 195, 179);
+  font-size: 30px;
+  margin-left: 400px;
+  margin-bottom: 20%;
+}
+@media (max-width: 570px) {
+  table {
+    display: inline-block;
+    border: solid 5px rgb(247, 195, 179);
+    font-size: 15px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+  }
+}
+table tr td {
+  text-align: center;
+}
+
+.table {
+  width: auto;
+  border-color: rgb(247, 195, 179);
+}
+.table > :not(caption) > * > * {
+  background-color: rgb(247, 195, 179);
+}
+
+#preguntas {
+  margin: 50px;
+}
+
+#politica {
+  font-family: "Mukta", sans-serif;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  margin: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
